@@ -1,0 +1,48 @@
+<div class="denglu" query-a>
+  <div class="mark" id="mark">
+    <div class="big"></div>
+    <div class="small">
+      <h2>恭喜您!登录成功</h2>
+      <h6>自动为您跳转到首页</h6>
+      <h5>
+        <span class="abb"><a ui-sref="start">确定</a></span>
+      </h5>
+    </div>
+  </div>
+    <div class="con">
+        <header>
+            <span class="left" id="query"><a ui-sref='start'><img src="images/console.png" alt=""></a></span>
+            <h3>登录</h3>
+            <span class="right" id="zhuce"><a ui-sref="zhuce">注册</a></span>
+        </header>
+        <section>
+           <div ng-controller="ctrl">
+               <ul>
+                   <li>
+                       <span>
+                           <img src="images/zhuce1.png" alt="">
+                       </span>
+                       <input type="text" placeholder="请输入用户名/手机号">
+                   </li>
+                   <li>
+                       <span>
+                           <img src="images/zhuce3.png" alt="">
+                       </span>
+                       <input type="text" placeholder="请输入密码">
+                       <button class="wjmm">忘记密码</button>
+                   </li>
+                   <li>
+                       <span>
+                           <img src="images/zhuce2.png" alt="">
+                       </span>
+                       <input type="text" placeholder="请输入验证码">
+                       <button class="btnimg"></button>
+                   </li>
+               </ul>
+               <button class="btn" id="btn">
+                   立即登录
+               </button>
+           </div>
+        </section>
+    </div>
+</div>

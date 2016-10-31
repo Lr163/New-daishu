@@ -1,0 +1,52 @@
+<div class="wdjiekuan" wd-jiekuan>
+  <div class="con">
+        <header>
+            我的借款
+            <span><img src="images/wodejiekuanimg/header.png" alt=""></span>
+        </header>
+        <div id='list'>
+      <a ui-sref="wdjiekuan.w1" class='bg'>申请中</a>  
+      <a ui-sref="wdjiekuan.w2">应还款</a> 
+      <a ui-sref="wdjiekuan.w3">已还款</a> 
+    </div>
+    <section class="content" id="con">
+      <div id="main" ui-view></div>
+    </section>
+        <footer>
+            <ul>
+                <li>
+                    <a ui-sref="start">
+                        <dl>
+                            <dt><img src="images/wodejiekuanimg/footer1.png" alt=""></dt>
+                            <dd>首页</dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref="wdjiekuan">
+                        <dl>
+                            <dt><img src="images/wodejiekuanimg/footer.png" alt=""></dt>
+                            <dd class="orange">我的借款</dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref="wdzhanghu">
+                        <dl>
+                            <dt><img src="images/footer3.png" alt=""></dt>
+                            <dd>我的账户</dd>
+                        </dl>
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref="gengduo">
+                        <dl>
+                            <dt><img src="images/footer4.png" alt=""></dt>
+                            <dd>更多</dd>
+                        </dl>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</div>

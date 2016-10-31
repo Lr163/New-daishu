@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li {
+  list-style: none;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+html,
+body,
+.guanyueomen {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+.guanyueomen {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.guanyueomen a {
+  color: #000;
+  text-decoration: none;
+}
+.guanyueomen header {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  background: #ff9600;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.guanyueomen header .left {
+  position: absolute;
+  left: -60%;
+  top: -1.2rem;
+}
+.guanyueomen header .left a {
+  color: #fff;
+}
+.guanyueomen section {
+  -webkit-box-flex: 1;
+  overflow: scroll;
+}
+.guanyueomen section banner img {
+  width: 100%;
+  height: 100%;
+}
+.guanyueomen section div {
+  padding: 1rem;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}

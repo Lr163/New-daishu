@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+ul li{
+	list-style: none;
+}
+.full{
+	width:100%;height:100%;
+}
+.pos(r){
+	position:relative;
+}
+.pos(a){
+	position:absolute;
+}
+html,body,.jisuanqi{
+	.full;
+}
+html {
+  font-size: 62.5%;
+}
+.jisuanqi{
+    display:-webkit-box;
+	-webkit-box-orient:vertical;
+    header{
+        .pos(r);
+        width: 100%;
+        height: 4rem;
+        line-height: 4rem;
+        background: #ff9600;
+        text-align: center;
+        font-size: 1.8rem;
+        color: #fff;
+        .left{
+            .pos(a);
+            left: -17rem;
+            top:-.9rem;
+            display: inline-block;
+            width: 1.3rem;
+            height: 1.3rem;
+            img{
+                .full;
+            }
+        }
+    }
+    section{
+		-webkit-box-flex:1;
+		overflow: scroll;
+        background: #f0f0f0;
+        .main{
+            ul{
+                background: #fff;
+                margin-top: 1rem;
+                li{
+                    padding-left: 1rem;
+                    .pos(r);
+                    height: 4rem;
+                    line-height: 4rem;
+                    font-size:1.6rem;
+                    input{
+                        border: 0;
+                        font-size: 1.4rem;
+                        .pos(a);
+                        right: 1rem;
+                        top:1.3rem;
+                        text-align: right;
+                        color:#a0a0a0;
+                    }
+                    span{
+                        .pos(a);
+                        font-size: 1.4rem;
+                        right:1rem;
+                        color:#a0a0a0;
+                    }
+                }
+            }
+            button{
+                background: #ff9700;
+                width: 90%;
+                margin-left: 5%;
+                height: 4rem;
+                color: #fff;
+                font-size: 1.4rem;
+                margin-top: 1rem;
+                border:0;
+            }
+        }
+    }
+}
